@@ -9,13 +9,11 @@ All'interno di questa cartella puoi trovare i seguenti files:
 
 E' disponibile il seguente materiale che contiene gli aspetti teorici:
 
-Notebooks:
 
-- [parte 1](parte1.ipynb)
+Parte 1:
 
-
-Slides: 
-
-- [parte1](https://pythonbiellagroup.github.io/PythonBase/teoria/parte1.slides.html)
+- [Scarica notebook](https://pythonbiellagroup.github.io/PythonBase/teoria/parte1.ipynb)
+- [Visualizza notebook su Github](parte1.ipynb)
+- [Slides](https://pythonbiellagroup.github.io/PythonBase/teoria/parte1.slides.html)
 
 
