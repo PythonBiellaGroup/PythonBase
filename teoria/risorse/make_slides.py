@@ -16,7 +16,7 @@ TO CHECK:
 """
 
 
-custom_css = "_static/css/softpython-slides.css"
+custom_css = "risorse/css/softpython-slides.css"
 
 
 from argparse import ArgumentParser
