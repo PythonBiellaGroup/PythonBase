@@ -14652,6 +14652,7 @@ div.jp-OutputPrompt {
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 
 <div class="reveal">
+ <link rel="stylesheet" href="_static/css/softpython-slides.css" id="theme">
 <div class="slides"><section><section>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14659,10 +14660,20 @@ div.jp-OutputPrompt {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Python-Base---prima-serata">Python Base - prima serata<a class="anchor-link" href="#Python-Base---prima-serata">&#182;</a></h1><h2 id="Python-Biella-Group">Python Biella Group<a class="anchor-link" href="#Python-Biella-Group">&#182;</a></h2><p><strong>Speaker</strong>: David Leoni (Università di Trento - DISI, Dip. Informatica) david.leoni@unitn.it</p>
-<p>Repository github per questi tutorial: <a href="https://github.com/PythonBiellaGroup/PythonBase/tree/main/teoria">https://github.com/PythonBiellaGroup/PythonBase/tree/main/teoria</a></p>
+<h1 id="Python-Base">Python Base<a class="anchor-link" href="#Python-Base">&#182;</a></h1><h2 id="Python-Biella-Group">Python Biella Group<a class="anchor-link" href="#Python-Biella-Group">&#182;</a></h2><br/>
+<h3 id="Prima-serata,-3/10/2022">Prima serata, 3/10/2022<a class="anchor-link" href="#Prima-serata,-3/10/2022">&#182;</a></h3><p>Speaker:</p>
+<ul>
+<li>David Leoni (Università di Trento - DISI, Dip. Informatica)</li>
+<li>david.leoni@unitn.it</li>
+</ul>
+<p>Repository github per questi tutorial:</p>
+<ul>
+<li><a href="https://github.com/PythonBiellaGroup/PythonBase/tree/main/teoria">https://github.com/PythonBiellaGroup/PythonBase/tree/main/teoria</a></li>
+</ul>
 <p>Materiale tratto dal libro <a href="https://it.softpython.org">SoftPython</a></p>
-<p>(Per navigare nelle slide premi Esc)</p>
+<ul>
+<li>(Per anteprima slide premi <code>Esc</code>)</li>
+</ul>
 
 </div>
 </div>
@@ -15556,7 +15567,10 @@ Adesso abbiamo 8 fiori.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="and">and<a class="anchor-link" href="#and">&#182;</a></h3><table>
+<center>
+<h3>  and </h3>
+</center>
+<table>
 <thead>
 <tr>
   <th>a</th>
@@ -17411,22 +17425,6 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -18994,7 +18992,7 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&lt;list_reverseiterator at 0x7fe95c1d1750&gt;</pre>
+<pre>&lt;list_reverseiterator at 0x7f47b8f59290&gt;</pre>
 </div>
 
 </div>
@@ -19782,42 +19780,50 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 <thead>
 <tr>
   <th>Operatore</th>
+  <th>Esempio</th>
   <th>Risultato</th>
   <th>Significato</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+  <td>lunghezza</td>
   <td><code>len</code>(tuple)</td>
   <td><code>int</code></td>
   <td>Ritorna la lunghezza di una tupla</td>
 </tr>
 <tr>
+  <td>indice</td>
   <td>tuple<code>[</code>int<code>]</code></td>
   <td><code>object</code></td>
   <td>Legge un elemento all'indice specificato</td>
 </tr>
 <tr>
+  <td>slice</td>
   <td>tuple<code>[</code>int<code>:</code>int<code>]</code></td>
   <td><code>tuple</code></td>
   <td>Estrae una sotto-tupla - ritorna una NUOVA tupla</td>
 </tr>
 <tr>
+  <td>concatenazione</td>
   <td>tuple1 <code>+</code> tuple2</td>
   <td><code>tuple</code></td>
   <td>Concatena due tuple - ritorna una NUOVA tupla</td>
 </tr>
 <tr>
+  <td>appartenenza</td>
   <td>object <code>in</code> tuple</td>
   <td><code>bool</code></td>
   <td>Controlla se un elemento è presente in una tupla</td>
 </tr>
 <tr>
+  <td>replicazione</td>
   <td>tuple <code>*</code> int</td>
   <td><code>tuple</code></td>
   <td>Replica la tupla - ritorna una NUOVA tupla</td>
 </tr>
 <tr>
+  <td>uguaglianza</td>
   <td><code>==</code>,<code>!=</code></td>
   <td><code>bool</code></td>
   <td>Controlla se due tuple sono uguali o differenti</td>
@@ -19926,7 +19932,7 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>{&#39;c&#39;, &#39;a&#39;, &#39;b&#39;, &#39;d&#39;}
+<pre>{&#39;d&#39;, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;}
 </pre>
 </div>
 </div>
@@ -19943,7 +19949,8 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <div class="alert alert-warning">
-<p><strong>ATTENZIONE: L'ORDINE NEGLI INSIEMI</strong> *<strong>NON</strong>* <strong>E' GARANTITO!</strong> *<strong>NON</strong>* <strong>CREDERE A QUELLO CHE VEDI !!</strong></p>
+<p><strong>ATTENZIONE: L'ORDINE NEGLI INSIEMI</strong> *<strong>NON</strong>* <strong>E' GARANTITO!</strong></p>
+<p>*<strong>NON</strong>* <strong>CREDERE A QUELLO CHE VEDI !!</strong></p>
 </div>
 
 </div>
@@ -20203,42 +20210,50 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 <thead>
 <tr>
   <th>Operatore</th>
+  <th>Esempio</th>
   <th>Risultato</th>
   <th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+  <td>lunghezza</td>
   <td><code>len</code>(set)</td>
   <td><code>int</code></td>
   <td>il numero di elementi nel set</td>
 </tr>
 <tr>
+  <td>appartenenza</td>
   <td>el <code>in</code> set</td>
   <td><code>bool</code></td>
   <td>verifica se elemento è contenuto nel set</td>
 </tr>
 <tr>
+  <td>unione</td>
   <td>set <code>|</code>  set</td>
   <td><code>set</code></td>
-  <td>unione, crea un NUOVO set</td>
+  <td>crea un NUOVO set</td>
 </tr>
 <tr>
+  <td>intersezione</td>
   <td>set <code>&amp;</code> set</td>
   <td><code>set</code></td>
-  <td>intersezione, crea un NUOVO set</td>
+  <td>crea un NUOVO set</td>
 </tr>
 <tr>
+  <td>differenza</td>
   <td>set <code>-</code> set</td>
   <td><code>set</code></td>
-  <td>differenza, crea un NUOVO set</td>
+  <td>crea un NUOVO set</td>
 </tr>
 <tr>
+  <td>differenza simmetrica</td>
   <td>set <code>^</code> set</td>
   <td><code>set</code></td>
-  <td>differenza simmetrica, crea un NUOVO set</td>
+  <td>crea un NUOVO set</td>
 </tr>
 <tr>
+  <td>uguaglianza</td>
   <td><code>==</code>,<code>!=</code></td>
   <td><code>bool</code></td>
   <td>Controlla se due insiemi sono uguali o differenti</td>
@@ -20613,37 +20628,44 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 <thead>
 <tr>
   <th>Operatore</th>
+  <th>Esempio</th>
   <th>Ritorna</th>
   <th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+  <td>lunghezza</td>
   <td><code>len</code>(dict)</td>
   <td><code>int</code></td>
   <td>Ritorna il numero di chiavi</td>
 </tr>
 <tr>
+  <td>indice</td>
   <td>dict<code>[</code>chiave<code>]</code></td>
   <td>obj</td>
   <td>Ritorna il valore associato alla chiave</td>
 </tr>
 <tr>
+  <td>modifica</td>
   <td>dict<code>[</code>chiave<code>]</code> <code>=</code> valore</td>
   <td></td>
   <td>Aggiunge o modifica il valore associato ad una chiave</td>
 </tr>
 <tr>
+  <td>rimozione</td>
   <td><code>del</code> dict<code>[</code>chiave<code>]</code></td>
   <td></td>
   <td>Rimuove la coppia chiave/valore</td>
 </tr>
 <tr>
+  <td>appartenenza</td>
   <td>chiave <code>in</code> dict</td>
   <td><code>bool</code></td>
   <td>Ritorna <code>True</code> se chiave è presente nel dizionario</td>
 </tr>
 <tr>
+  <td>uguaglianza</td>
   <td><code>==</code>,<code>!=</code></td>
   <td><code>bool</code></td>
   <td>Controlla se due dizionari sono uguali o differenti</td>
@@ -21267,7 +21289,7 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li><p><code>.copy</code> effettua sulo una cosiddetta copia in superficie (<em>shallow copy</em>)</p>
+<li><p><code>.copy</code> effettua solo una cosiddetta copia in superficie (<em>shallow copy</em>)</p>
 </li>
 <li><p>per la copia in profondità (<em>deep copy</em>) servono altri sistemi!</p>
 </li>
@@ -21610,7 +21632,10 @@ TypeError: Can<span class="s1">&#39;t convert &#39;</span>int<span class="err">&
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Esercizi-rapidi">Esercizi rapidi<a class="anchor-link" href="#Esercizi-rapidi">&#182;</a></h2>
+<h2 id="Esercizi-rapidi">Esercizi rapidi<a class="anchor-link" href="#Esercizi-rapidi">&#182;</a></h2><ul>
+<li>(solo sul notebook)</li>
+</ul>
+
 </div>
 </div>
 </div>
@@ -21762,7 +21787,8 @@ renderlo consono al buon costume.</p>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">matrimoni</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"Amilcare-Maria Eusonia"</span><span class="p">,</span> <span class="s2">"Oronzo Pio-Genoveffa"</span><span class="p">,</span> <span class="s2">"Venceslao-Elvira"</span><span class="p">]</span>
-<span class="c1">#matrimoni = ["Liutprando-Brunilde", "Clodoveo-Elvira Pancrazia Ludmilla", "Gian Evaristo-Ubalda"]</span>
+<span class="c1">#matrimoni = ["Liutprando-Brunilde", "Clodoveo-Elvira Pancrazia Ludmilla", </span>
+             <span class="c1"># "Gian Evaristo-Ubalda"]</span>
 
 <span class="c1"># scrivi qui</span>
 </pre></div>
@@ -21819,9 +21845,9 @@ require(
             history: true,
             
             transition: "fade",
-            navigationMode: "linear",
+            navigationMode: "linear",                
     
-            slideNumber: "",
+            slideNumber: true,
             plugins: [RevealNotes]
         });
 

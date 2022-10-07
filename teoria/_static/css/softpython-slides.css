@@ -1,0 +1,208 @@
+
+@font-face {
+    font-family:"Archivo";
+    src:url("../fonts/Archivo/Archivo-Regular.eot");
+    src:url("../fonts/Archivo/Archivo-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Archivo/Archivo-Regular.woff2") format("woff2"),
+    url("../fonts/Archivo/Archivo-Regular.woff") format("woff"),
+    url("../fonts/Archivo/Archivo-Regular.ttf") format("truetype");
+    font-weight:400;
+    font-style:normal
+   }
+@font-face {
+    font-family:"Archivo";
+    src:url("../fonts/Archivo/Archivo-Bold.eot");
+    src:url("../fonts/Archivo/Archivo-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Archivo/Archivo-Bold.woff2") format("woff2"),
+    url("../fonts/Archivo/Archivo-Bold.woff") format("woff"),
+    url("../fonts/Archivo/Archivo-Bold.ttf") format("truetype");
+    font-weight:700;
+    font-style:normal
+   }
+@font-face {
+    font-family:"Archivo";
+    src:url("../fonts/Archivo/Archivo-BoldItalic.eot");
+    src:url("../fonts/Archivo/Archivo-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Archivo/Archivo-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Archivo/Archivo-BoldItalic.woff") format("woff"),
+    url("../fonts/Archivo/Archivo-BoldItalic.ttf") format("truetype");
+    font-weight:700;
+    font-style:italic
+   }
+@font-face {
+    font-family:"Archivo";
+    src:url("../fonts/Archivo/Archivo-Italic.eot");
+    src:url("../fonts/Archivo/Archivo-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Archivo/Archivo-Italic.woff2") format("woff2"),
+    url("../fonts/Archivo/Archivo-Italic.woff") format("woff"),
+    url("../fonts/Archivo/Archivo-Italic.ttf") format("truetype");
+    font-weight:400;
+    font-style:italic
+   }
+
+@font-face {
+    font-family:"Hussar";
+    font-style:normal;
+    
+    src:url("../fonts/Hussar/HussarBold-7mRE.eot");
+    src:url("../fonts/Hussar/HussarBold-7mRE.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Hussar/HussarBold-7mRE.woff2") format("woff2"),
+    url("../fonts/Hussar/HussarBold-7mRE.woff") format("woff"),
+    url("../fonts/Hussar/HussarBold-7mRE.ttf") format("truetype")
+   }
+
+@font-face {
+    font-family:"Varela";
+    font-style:normal;
+    
+    src:url("../fonts/Varela/Varela-Regular.eot");
+    src:url("../fonts/Varela/Varela-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Varela/Varela-Regular.woff2") format("woff2"),
+    url("../fonts/Varela/Varela-Regular.woff") format("woff"),
+    url("../fonts/Varela/Varela-Regular.ttf") format("truetype")
+   }
+
+@font-face {
+    font-family: "Inconsolata";
+
+    src:url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth-wght.eot");
+    src:url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth-wght.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth-wght.woff2") format("woff2"),
+    url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth-wght.woff") format("woff"),
+    url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth-wght.ttf") format("truetype");
+
+    src: url("../fonts/Inconsolata/Inconsolata-VariableFont_wdth-wght.ttf");
+}
+
+
+body {
+    background-image: linear-gradient(#f9f8f3, #f9f8e3) !important;  
+}
+
+.reveal ::selection {
+    background-color: #fe6;
+    color: black;
+}
+
+.reveal code {
+    background-color: #fff !important;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc ;
+    border-radius: 5px;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: "Hussar","ff-tisa-web-pro","Georgia","Arial","sans-serif" !important;
+}
+
+
+.reveal p {
+    font-family: "Archivo","proxima-nova","Helvetica Neue","Arial","sans-serif" !important;    
+}
+
+
+.reveal pre {
+        font-family: "Inconsolata","SFMono-Regular","Menlo","Monaco","Consolas","Liberation Mono","Courier New","Courier","monospace" !important;
+}
+
+.reveal .alert  {
+    border-radius : 12px;
+    border:0;
+    box-shadow: 2px 2px 3px #3335;   
+}
+
+.reveal .alert-warning {
+  background-color: rgba(255, 224, 178, 0.5);
+  color: #c22;
+}
+
+.reveal .alert-info {
+   background-color: #bdf7;
+}
+
+
+.jp-InputArea-prompt, .jp-OutputArea-prompt {
+    opacity:0 !important;
+}
+
+
+.jp-CodeMirrorEditor.jp-Editor.jp-InputArea-editor {
+    margin: 3px;    
+    border-radius : 12px;
+    box-shadow: 2px 2px 3px  #ccc;
+}
+
+
+.jp-OutputArea-output pre, .jp-RenderedMarkdown pre {
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
+  
+  border-radius : 6px;
+  background-color: #fff4;
+}
+
+.jp-RenderedMarkdown pre, .jp-RenderedMarkdown .highlight {
+    
+}
+
+.reveal ul, ol {
+
+}
+
+div.output_stderr {
+
+}
+
+
+.reveal .slide-number {
+    margin-right:32px;
+    margin-bottom:25px;   
+    background-color:#fff0 !important;
+    color: #151 !important;
+}
+
+
+.reveal .controls-arrow {
+    color: green;
+}
+
+
+/* ***************   TABLES START  ****************** */
+
+.reveal table {
+
+}
+
+.reveal table {   
+   
+       min-width:30% !important;
+   margin-left:auto !important;
+   margin-right:auto !important;
+   box-shadow: 1px 3px 3px 1px rgba(0, 0, 30, 0.2);
+   border-collapse: collapse !important;
+   border-style: hidden !important;
+   border-radius:5px;
+}
+
+.reveal table th {       
+   text-align:center;
+   padding-top:0px !important;
+   padding-bottom:0px !important;   
+   background:#2311;   
+   color:#333d; 
+   border-bottom: 2px solid #9a75 !important;
+   border-radius:5px;
+}
+
+.reveal tr:nth-child(even) {
+  background: #FAFCFF !important;
+}
+
+/* yes we need ALL those specifiers */
+.reveal table:not(.field-list) tr:nth-child(2n-1) td {
+   
+}
+
+/* *****************   TABLES END    **********************  */
