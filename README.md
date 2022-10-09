@@ -4,7 +4,7 @@ Benvenuto all'interno della nostra repository di PythonBiellaGroup dedicata all'
 
 All'interno di questa repository puoi trovare: 
 
-- [Aspetti teorici](): cartella contenente tutti gli aspetti teorici e materiale di apprendimento selezionato e realizzato da noi per l'apprendimento di Python
+- [Aspetti teorici](teoria/): cartella contenente tutti gli aspetti teorici e materiale di apprendimento selezionato e realizzato da noi per l'apprendimento di Python
 - [Esercizi](): elenco di esercizi che puoi realizzare per mettere in pratica gli aspetti teorici
 - [Progetti](): suggerimento di alcuni progetti che puoi realizzare per migliorare le tue abilità di programmazione
 - [Esempi pratici](): alcuni esempi pratici di codice realizzato da noi o a altre persone che hanno svolto esercizi e progetti
