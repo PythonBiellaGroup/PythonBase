@@ -29,5 +29,4 @@ Parte 3:
 - [Slides](https://pythonbiellagroup.github.io/PythonBase/teoria/parte3.slides.html)
 
 Parte 4: 
-
-- [Slides](https://github.com/PythonBiellaGroup/PythonBase/blob/main/teoria/parte4.slides.html)
+- [Slides](https://pythonbiellagroup.github.io/PythonBase/teoria/parte4.slides.html)
