@@ -14502,8 +14502,20 @@ div.jp-OutputPrompt {
     <span class="k">def</span> <span class="nf">fulfill_order</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="s2">&quot;The </span><span class="si">{0}</span><span class="s2"> is ready!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_orders</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span> \
             <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_orders</span><span class="p">)</span> <span class="k">else</span> <span class="s1">&#39;All orders have been fulfilled!&#39;</span>
+</pre></div>
 
-    <span class="k">def</span> <span class="nf">list_orders</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+     </div>
+</div>
+</div>
+</div>
+
+</div></div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span>   <span class="k">def</span> <span class="nf">list_orders</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_orders</span>
 
     <span class="k">def</span> <span class="nf">due_amount</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
@@ -14526,7 +14538,7 @@ div.jp-OutputPrompt {
 </div>
 </div>
 
-</div></div></section></section><section><section>
+</div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Class-composition">Class composition<a class="anchor-link" href="#Class-composition">&#182;</a></h2><p>Per prima cosa, recuperiamo l'esempio della serata precedente ma aggiungiamoci alcuni valori</p>
@@ -14879,6 +14891,39 @@ ANIMALE: Pescevolante
             <span class="bp">self</span><span class="o">.</span><span class="n">aria</span> <span class="o">=</span> <span class="n">aria</span>
 
         <span class="k">def</span> <span class="nf">muovi</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ambiente</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">ambiente</span> <span class="o">==</span> <span class="s2">&quot;terra&quot;</span><span class="p">:</span>
+                <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__cammina</span><span class="p">()</span>
+            <span class="k">elif</span> <span class="n">ambiente</span> <span class="o">==</span> <span class="s2">&quot;acqua&quot;</span><span class="p">:</span>
+                <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__nuota</span><span class="p">()</span>
+            <span class="k">elif</span> <span class="n">ambiente</span> <span class="o">==</span> <span class="s2">&quot;aria&quot;</span><span class="p">:</span>
+                <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__vola</span><span class="p">()</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Non conosco questo ambiente!&quot;</span><span class="p">)</span>
+                <span class="k">return</span> <span class="mi">0</span>
+
+        <span class="k">def</span> <span class="nf">__cammina</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">terra</span>
+        <span class="k">def</span> <span class="nf">__nuota</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">acqua</span>
+        <span class="k">def</span> <span class="nf">__vola</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">aria</span>
+
+        <span class="k">def</span> <span class="fm">__str__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+            <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">nome</span><span class="si">}</span><span class="s2">: terra </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">terra</span><span class="si">}</span><span class="s2">, acqua </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">acqua</span><span class="si">}</span><span class="s2">, aria </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">aria</span><span class="si">}</span><span class="s2">&quot;</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div></section><section><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span>        <span class="k">def</span> <span class="nf">muovi</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">ambiente</span><span class="p">):</span>
             <span class="k">if</span> <span class="n">ambiente</span> <span class="o">==</span> <span class="s2">&quot;terra&quot;</span><span class="p">:</span>
                 <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">__cammina</span><span class="p">()</span>
             <span class="k">elif</span> <span class="n">ambiente</span> <span class="o">==</span> <span class="s2">&quot;acqua&quot;</span><span class="p">:</span>
