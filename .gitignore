@@ -1,6 +1,8 @@
 # Personal extensions
 
 .DS_Store
+.venv
+.pytest_cache
 
 
 # Byte-compiled / optimized / DLL files
