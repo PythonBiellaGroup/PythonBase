@@ -30,4 +30,5 @@ Parte 3:
 
 Parte 4: 
 - [Scarica notebook](https://github.com/PythonBiellaGroup/PythonBase/blob/main/teoria/parte4.ipynb)
+- [Visualizza notebook su Github](parte4.ipynb)
 - [Slides](https://pythonbiellagroup.github.io/PythonBase/teoria/parte4.slides.html)
