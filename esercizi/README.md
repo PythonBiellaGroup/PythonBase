@@ -18,3 +18,11 @@ Per cui: **don't panic** e continuiamo ad imparare, assieme!
 - https://edabit.com/challenges/python3
 - https://holypython.com/beginner-python-exercises/
 - https://ehmatthes.github.io/pcc_2e/regular_index/
+
+
+## Code challenges e esempi per le code interviews
+
+- https://www.interviewbit.com/python-interview-questions/
+- https://www.edureka.co/blog/interview-questions/python-interview-questions/
+- https://codingcompiler.com/python-coding-interview-questions-answers/
+
