@@ -5,5 +5,15 @@
         "titleBar.activeBackground": "#3912C6",
         "titleBar.activeForeground": "#FCFCFF"
     },
-    "cSpell.language": "en,it"
+    "cSpell.language": "en,it",
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    },
+
+    "cSpell.words": [],
 }
