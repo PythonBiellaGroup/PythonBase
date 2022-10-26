@@ -29,6 +29,7 @@ Parte 3:
 - [Slides](https://pythonbiellagroup.github.io/PythonBase/teoria/parte3.slides.html)
 
 Parte 4: 
-- [Scarica notebook](https://github.com/PythonBiellaGroup/PythonBase/blob/main/teoria/parte4.ipynb)
+
+- [Scarica notebook](https://pythonbiellagroup.github.io/PythonBase/teoria/parte4.ipynb)
 - [Visualizza notebook su Github](parte4.ipynb)
 - [Slides](https://pythonbiellagroup.github.io/PythonBase/teoria/parte4.slides.html)
