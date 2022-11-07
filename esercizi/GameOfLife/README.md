@@ -39,7 +39,7 @@ Come esercizio e come sviluppi futuri vi lasciamo alcuni spunti:
 - Cambiare la scrittura del progetto: dalle funzioni alle classi
 - Provare ad utilizzare numpy per la gestione della matrice
 - Provare ad integrarlo in Pygame
-- Aggiugnere altre features: numero di vivi, overpopolazione, sottopopolazione, e tutto quello che vi viene in mente
+- Aggiungere altre features: numero di vivi, overpopolazione, sottopopolazione, e tutto quello che vi viene in mente
 - Provare ad integrare la lettura della matrice utilizzando un file di testo
 
 
