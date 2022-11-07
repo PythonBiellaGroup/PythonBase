@@ -1,0 +1,10 @@
+pylint
+bandit
+black
+flake8
+ipython
+mypy
+jupyter
+autopep8
+pygame
+numpy
